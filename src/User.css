@@ -1,0 +1,100 @@
+/* Tiêu đề trang Người dùng */
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Bảng thông tin người dùng */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Header của bảng */
+  thead {
+    background-color: #2c3e50;
+    color: #fff;
+  }
+  
+  th {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 12px 15px;
+    text-align: left;
+  }
+  
+  /* Dòng của bảng */
+  tbody tr {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+  }
+  
+  tbody tr:hover {
+    background-color: #ecf0f1;
+  }
+  
+  /* Input fields */
+  input, select {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #3498db;
+    outline: none;
+  }
+  
+  /* Button thêm/sửa người dùng */
+  button {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+  }
+  
+  .btn-primary {
+    background-color: #3498db;
+    color: white;
+    border: none;
+  }
+  
+  .btn-warning {
+    background-color: #f39c12;
+    color: white;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Table thông tin người dùng */
+  td {
+    font-size: 14px;
+    padding: 12px 15px;
+  }
+  
+  table tr td button {
+    margin-right: 10px;
+  }
+  

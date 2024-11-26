@@ -1,0 +1,120 @@
+/* Cải thiện giao diện tổng thể của container */
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  /* Tăng độ rộng của input tìm kiếm và căn chỉnh */
+  input[type="text"] {
+    max-width: 500px;
+    margin: 0 auto;
+    display: block;
+    border-radius: 0.5rem;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Bảng thông tin khách hàng */
+  .table {
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table td button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .table .btn-info {
+    font-size: 14px;
+    background-color: #17a2b8;
+    border: none;
+    color: white;
+  }
+  
+  .table .btn-info:hover {
+    background-color: #138496;
+  }
+  
+  /* Modal styling */
+  .modal-content {
+    border-radius: 8px;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .modal-body {
+    font-size: 14px;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Thêm kiểu cho nút trong modal */
+  .modal-footer .btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .modal-footer .btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  button.btn-close {
+    color: #007bff;
+    border: none;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .table td, .table th {
+      font-size: 12px;
+    }
+  
+    input[type="text"] {
+      width: 100%;
+    }
+  
+    .modal-content {
+      width: 100%;
+      max-width: 500px;
+    }
+  }
+  

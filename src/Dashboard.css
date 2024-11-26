@@ -1,0 +1,80 @@
+/* Container chung */
+.container {
+    max-width: 1200px;
+    margin-top: 30px;
+  }
+  
+  /* Tiêu đề Dashboard */
+  h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Card tổng quan (số liệu) */
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  .card-text {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  /* Thẻ các thông tin tổng quan */
+  .card.text-primary { background-color: #e0f7fa; }
+  .card.text-success { background-color: #c8e6c9; }
+  .card.text-warning { background-color: #fff9c4; }
+  .card.text-info { background-color: #bbdefb; }
+  
+  /* Biểu đồ Line */
+  h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .mt-4 {
+    margin-top: 40px;
+  }
+  
+  /* Các sản phẩm hết hàng */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  ul li:hover {
+    background-color: #f7f7f7;
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+  }
+  

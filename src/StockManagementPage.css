@@ -1,0 +1,84 @@
+/* Thêm một số kiểu chung cho các thành phần */
+.container {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Cải thiện form input */
+  .form-control {
+    border-radius: 0.5rem;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  input[type="date"], input[type="number"], input[type="text"], select {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    max-width: 200px;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 0.5rem;
+  }
+  
+  .table {
+    margin-top: 30px;
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table td button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  
+  .table thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+  
+  /* Style cho các button */
+  button.btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  
+  input[type="text"], input[type="number"], input[type="date"], select {
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .form-control, .btn-primary {
+      width: 100%;
+    }
+  
+    .table {
+      font-size: 12px;
+    }
+  }
+  

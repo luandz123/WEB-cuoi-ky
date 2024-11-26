@@ -1,0 +1,293 @@
+.revenue-report {
+  margin-top: 20px;
+  margin-left: 260px; /* Ensure main content does not overlap with sidebar */
+}
+
+.revenue-report h2 {
+  color: #007bff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.filter-options {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.summary-item {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+  flex: 1;
+  margin: 10px;
+  max-width: 220px;
+}
+
+.summary-item span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.revenue-table {
+  width: 100%;
+  background: #ffffff;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.revenue-table th,
+.revenue-table td {
+  padding: 10px;
+  border: 1px solid #dee2e6;
+  text-align: center;
+}
+
+.revenue-table th {
+  background: #007bff;
+  color: #ffffff;
+}
+
+.revenue-table tbody tr:hover {
+  background: #f1f1f1;
+}
+
+button {
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filter-options input[type='date'] {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 5px;
+}
+
+.date-range {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
+.date-range input {
+  max-width: 200px;
+}
+
+.date-range button {
+  margin: 0;
+}
+
+/* Table Styles */
+.table-container {
+  margin-top: 30px;
+}
+
+.revenue-table-container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  margin-top: 15px;
+}
+
+.revenue-table th,
+.revenue-table td {
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 12px;
+}
+
+/* Buttons and Interactions */
+.summary button,
+.filter-options button {
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.summary button:hover,
+.filter-options button:hover {
+  background-color: #0056b3;
+}
+
+/* Sidebar Styles for Revenue Page */
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 240px;
+  background: #6a1b9a; /* Updated to match the provided color */
+  color: #ffffff;
+  overflow-y: auto;
+}
+
+.fixed-sidebar {
+  height: calc(100vh - 20px);
+  overflow-y: auto;
+  position: fixed;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.menu-container input {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.suggestions-list {
+  max-height: 200px;
+  overflow-y: auto;
+  position: absolute;
+  z-index: 1000;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  width: calc(100% - 30px);
+  margin-top: 5px;
+}
+
+/* Custom Scroll for Sidebar */
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Sidebar Item Hover Effects */
+.nav-link:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+  transition: background-color 0.3s;
+}
+
+.nav-link {
+  color: #ffffff;
+  padding: 10px 15px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+h4.text-center {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+/* Ensure content next to sidebar */
+.main-content {
+  margin-left: 240px;
+  padding: 20px;
+}
+
+.sidebar .nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.sidebar .nav-link svg {
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+/* Added to fix overlap issue */
+.main-content {
+  margin-left: 260px;
+  padding: 20px;
+}
+
+/* Improved spacing for sidebar menu items */
+.nav-item {
+  padding: 12px;
+  margin-bottom: 5px;
+}
+
+/* Sidebar header alignment fix */
+.sidebar h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Sidebar specific styles for Revenue Page */
+.sidebar {
+  width: 240px;
+  background-color: #007bff; /* Updated to match the provided color */
+}
+
+.sidebar .nav-link {
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+.sidebar .nav-link .me-2 {
+  margin-right: 15px;
+}
+
+.main-content {
+  margin-left: 260px;
+}
+
+.sidebar .nav-item {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}

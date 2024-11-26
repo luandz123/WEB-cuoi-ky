@@ -1,0 +1,130 @@
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .fixed-sidebar {
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+    position: fixed;
+  }
+  
+  .container-fluid {
+    padding-top: 20px;
+  }
+  
+  .row.align-items-center {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .form-control {
+    border-radius: 0.25rem;
+  }
+  
+  .table-responsive {
+    margin-top: 30px;
+  }
+  
+  .table-bordered th,
+  .table-bordered td {
+    text-align: center;
+  }
+  
+  /* Styles for Menu Alignment */
+  .menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+  
+  .menu-container input {
+    flex: 1;
+    margin-right: 15px;
+  }
+  
+  .suggestions-list {
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+    background: #ffffff;
+    border: 1px solid #ced4da;
+    width: calc(100% - 30px);
+    margin-top: 5px;
+  }
+  
+  /* Styles for Summary Section */
+  .bg-light {
+    background-color: #f8f9fa !important;
+  }
+  
+  .p-3 {
+    padding: 1rem !important;
+  }
+  
+  .rounded {
+    border-radius: 0.25rem !important;
+  }
+  
+  .shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+  }
+  
+  .mb-1 {
+    margin-bottom: 0.25rem !important;
+  }
+  
+  .text-secondary {
+    color: #6c757d !important;
+  }
+  
+  .text-dark {
+    color: #343a40 !important;
+  }
+  
+  /* Hover Effects */
+  .list-group-item:hover {
+    background-color: #f1f1f1;
+  }
+  .list-group-item-action:active {
+    background-color: #e9ecef;
+  }
+  
+  /* Ensuring horizontal alignment between Menu and Search Input */
+  .col-md-2.sidebar {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input.form-control {
+    height: 38px;
+  }
+  
+  .menu-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #ffffff;
+    align-items: center;
+  }
+  
+  /* Custom Scroll for Sidebar */
+  .sidebar::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
